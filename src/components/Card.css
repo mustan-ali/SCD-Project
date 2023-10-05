@@ -1,0 +1,64 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+} */
+
+.card {
+    width: 255px;
+    height: 290px;
+    margin: 5px;
+    background: #f3f3f3;
+    border-radius: 24px;
+    padding: 24px;
+    overflow: hidden;
+}
+
+.title {
+    color: #22215B;
+    font-size: 20px;
+}
+
+.description {
+    padding: 10px 0;
+    color: #22215B80;
+    font-size: 14px;
+    height: 140px;
+}
+
+.author {
+    font-size: 13px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.info span {
+    font-weight: 600;
+    color: #22215B;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 400;
+    background: #ffffff;
+    color: #22215B;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
