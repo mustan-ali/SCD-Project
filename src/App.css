@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +9,14 @@
 }
 
 .container {
+  background-image: url(./assets/bg-image.jpg);
+  background-size: 430px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 24px;
-  width: 1500px;
-  margin: auto;
+  width: 100%;
+  margin: 0px;
+  min-height: 81vh;
+  padding: 0px;
 }

@@ -1,21 +1,20 @@
 import './App.css';
-import Card from './components/Card';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Quest from './components/Quests';
 
 function App() {
   return (
     <div>
 
+      <Header />
+
       <div className="container">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Quest />
       </div>
 
+      <Footer />
+      
     </div>
   );
 }
