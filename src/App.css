@@ -8,15 +8,13 @@
   box-sizing: border-box;
 }
 
-.container {
+.app-container {
   background-image: url(./assets/bg-image.jpg);
   background-size: 430px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  align-content: space-between;
   width: 100%;
-  margin: 0px;
-  min-height: 81vh;
-  padding: 0px;
+  min-height: 100vh;
 }

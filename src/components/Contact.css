@@ -1,0 +1,51 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.contact-container h2{
+    font-size: 40px;
+}
+
+.contact-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 255px;
+    height: 255px;
+    margin: 5px;
+    background: #dddddd;
+    border-radius: 24px;
+    padding: 24px;
+    overflow: hidden;
+}
+
+.contact-title {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contact-description {
+    padding: 10px 0;
+    color: #00000080;
+    font-size: 14px;
+}
+
+.contact .card:hover {
+    box-shadow: 0px 0px 5px 0px #00000080;
+}

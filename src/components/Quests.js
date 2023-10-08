@@ -4,8 +4,8 @@ import './Quests.css';
 
 export default function Quests() {
     return (
-        <div>
-            <h1 className="title">Quests</h1>
+        <div className="quest">
+            <h1 className="quest-title">Quests</h1>
             <div className="card-container">
                 <Card />
                 <Card />

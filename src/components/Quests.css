@@ -1,3 +1,10 @@
+.quest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -9,8 +16,6 @@
     padding: 0px;
 }
 
-h1 .title{
+.quest-title{
     font-size: 50px;
-    width: 75px;
-    margin: auto;
 }

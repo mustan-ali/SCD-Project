@@ -1,0 +1,37 @@
+.home h2 {
+    font-size: 3rem;
+    max-width: 1000px;
+    margin-bottom: 1.7rem;
+}
+
+.home p {
+    font-size: 1.3rem;
+    max-width: 700px;
+}
+
+.home .get-started {
+    margin: 20px 0px;
+}
+
+.home .quest-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 1.3rem;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 7px;
+}
+.home .quest-btn:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.home{
+    padding: 0px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 83vh;
+}
