@@ -18,11 +18,21 @@
     height: 50px;
     font-size: 1.3rem;
     background-color: white;
+    color: black;
     text-transform: uppercase;
     border-radius: 7px;
 }
 .home .quest-btn:hover {
     background-color: #000000;
+    color: white;
+}
+
+.home .quest-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.home .quest-btn:hover a{
     color: white;
 }
 
@@ -33,5 +43,4 @@
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    min-height: 83vh;
 }

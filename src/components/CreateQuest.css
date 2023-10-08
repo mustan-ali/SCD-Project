@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Create-container{
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.Create-container #contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 50px 0;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.Create-container #contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.Create-container fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.Create-container #contact input[type="text"],
+.Create-container #contact input[type="email"],
+.Create-container #contact input[type="number"],
+.Create-container #contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+.Create-container #contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.Create-container #contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #858585;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
