@@ -8,15 +8,13 @@
     list-style: none;
 }
 
-
-.header h2,
-.header h3,
 .header a {
-    color: #34495e;
-}
-
-.header a {
+    color: #000000;
     text-decoration: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
 }
 
 .header .logo {
@@ -30,21 +28,13 @@
 
 }
 
-.header .logo a,
 .header .main-nav a {
-    padding: 10px 15px;
-    text-transform: uppercase;
-    text-align: center;
-    display: block;
-}
-
-.header .main-nav a {
-    color: #34495e;
+    color: #000000;
     font-size: .99em;
 }
 
 .header .main-nav a:hover {
-    color: #718daa;
+    color: #ffffff;
 }
 
 .header {
@@ -53,7 +43,7 @@
     padding-top: .5em;
     padding-bottom: .5em;
     border-bottom: 2px solid black;
-    background-color: #f3f3f3;
+    background: linear-gradient(50deg, rgba(128, 255, 114, 1) 0%, rgba(126, 232, 250, 1) 100%);
 }
 
 @media (min-width: 769px) {

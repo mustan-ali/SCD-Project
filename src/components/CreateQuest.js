@@ -3,7 +3,7 @@ import "./CreateQuest.css";
 
 export default function CreateQuest() {
     return (
-        <div class="Create-container">
+        <div class="create-container">
             <form id="contact" action="" method="post">
                 <h3>Create Quest</h3>
                 <fieldset>

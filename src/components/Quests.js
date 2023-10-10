@@ -17,6 +17,8 @@ export default function Quests() {
                 <Card />
                 <Card />
                 <Card />
+                <Card />
+                <Card />
             </div>
         </div>
     )
