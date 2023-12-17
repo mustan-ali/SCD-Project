@@ -47,3 +47,21 @@
     align-items: flex-start;
     width: 100%;
 }
+
+/* Responsive Styles */
+
+@media (max-width: 767px) {
+    .home h2 {
+        font-size: 2.5rem;
+    }
+
+    .home p {
+        font-size: 1.1rem;
+    }
+
+    .home .quest-btn {
+        width: 150px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}

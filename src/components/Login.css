@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login {
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login a {
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 10px) no-repeat,
+    linear-gradient(90deg, #80ff72 0%, #7EE8FA 100%);
+  color: #000000;
+  margin: 10px 0px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.login a:hover {
+  background: linear-gradient(90deg, rgba(128, 255, 114, 1) 0%, rgba(126, 232, 250, 1) 100%);
+  color: #000000;
+}
+
+
+
+.login #contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 50px 0;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.login #contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.login fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.login #contact input[type="text"],
+.login #contact input[type="email"],
+.login #contact input[type="password"],
+.login #contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+.login #contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.login #contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 10px) no-repeat,
+    linear-gradient(90deg, #80ff72 0%, #7EE8FA 100%);
+  color: #000000;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.login #contact button:hover {
+  background: linear-gradient(90deg, rgba(128, 255, 114, 1) 0%, rgba(126, 232, 250, 1) 100%);
+  color: #000000;
+}
